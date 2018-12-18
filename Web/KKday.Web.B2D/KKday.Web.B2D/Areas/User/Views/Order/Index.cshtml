@@ -68,6 +68,9 @@
 <script>
 $(function(){
     $('#Menu_03').addClass("active");
+    $('#traveler').on('show.bs.modal', function(e) {
+        var btn = $(e.relatedTarget),
+        id = btn.data('i');
 });
 
 function Refresh(page, is_recount) {

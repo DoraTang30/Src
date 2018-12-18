@@ -1,0 +1,131 @@
+@charset "UTF-8";
+.order-detail-wrap .breadcrumb {
+  margin-top: -20px; }
+
+.order-detail-wrap .page-aside .img-bg .tag {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  background-color: rgba(51, 51, 51, 0.8);
+  padding: 4px 12px;
+  margin-top: 15px;
+  border-radius: 0 2px 2px 0; }
+
+.order-detail-wrap .page-aside .product-img {
+  height: 160px;
+  border-radius: 6px; }
+
+.order-detail-wrap .page-aside .order-main-title {
+  overflow: hidden;
+  margin-bottom: 15px; }
+  .order-detail-wrap .page-aside .order-main-title h2 {
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 0; }
+
+.order-detail-wrap .page-aside .fill-group {
+  font-size: 1.4rem; }
+
+.order-detail-wrap .page-aside .price-detail {
+  border-top: 1px dashed #eaeaea; }
+
+.order-detail-wrap .board {
+  min-height: auto; }
+  .order-detail-wrap .board .traveler-con {
+    padding: 5px 0; }
+
+.order-detail-wrap .order-cta .page-head {
+  margin-top: -10px;
+  padding-bottom: 10px; }
+
+.order-detail-wrap .order-cta .flash-tag {
+  margin-bottom: 10px; }
+
+.order-detail-wrap .order-cta h1 {
+  font-size: 1.8rem;
+  margin-top: 0; }
+
+.order-detail-wrap .order-status .label {
+  float: left;
+  margin: 1px 10px 0 0; }
+
+.order-detail-wrap .order-status p {
+  margin-bottom: 0;
+  overflow: hidden; }
+
+.price-detail {
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 15px; }
+  .price-detail:before, .price-detail:after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #f5f5f5;
+    position: absolute;
+    top: -10px; }
+  .price-detail:before {
+    left: -25px; }
+  .price-detail:after {
+    right: -25px; }
+  .price-detail hr {
+    margin: 15px 0; }
+  .price-detail .product-pricing h4 {
+    line-height: 1; }
+
+.order-detail-wrap .info-section {
+  padding: 10px 0; }
+  .order-detail-wrap .info-section .info-content {
+    padding-left: 20px; }
+  .order-detail-wrap .info-section .sub-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.6rem; }
+  .order-detail-wrap .info-section .traveler-con {
+    padding: 5px 0; }
+
+#cancel-modal .price-detail, #cancel-modal .point-detail {
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  margin: 20px 0;
+  padding: 15px; }
+  #cancel-modal .price-detail hr, #cancel-modal .point-detail hr {
+    border-style: dashed;
+    position: relative;
+    overflow: visible;
+    margin: 15px 0; }
+
+#cancel-modal .price-detail {
+  background-color: #f8f8f8; }
+  #cancel-modal .price-detail:before, #cancel-modal .price-detail:after {
+    display: none; }
+
+#cancel-modal .cancel-info tr td {
+  color: #ccc;
+  font-size: 1.2rem; }
+
+#cancel-modal .cancel-info tr.choose td {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.4rem; }
+
+#cancel-modal .cancel-info tr.choose i {
+  padding: 0 10px; }
+
+/*App聯絡*/
+.contact-app .pic, .contact-app .info {
+  float: left; }
+
+.contact-app .pic, .contact-app .pic img {
+  width: 40px; }
+
+.contact-app .info {
+  padding-left: 10px;
+  width: calc(100% - 40px);
+  line-height: 20px; }
+  .contact-app .info .text {
+    color: #999; }
+
+/*# sourceMappingURL=../sourcemaps/pages/order.css.map */

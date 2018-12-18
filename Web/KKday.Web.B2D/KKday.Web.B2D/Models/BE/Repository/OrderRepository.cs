@@ -86,10 +86,10 @@ namespace KKday.Web.B2D.BE.Models.Repository
             if (obj["price2Qty"] != null) order_info.CHD_QTY = obj["price2Qty"].ToString();
             if (obj["price3Qty"] != null) order_info.INF_QTY = obj["price3Qty"].ToString();
             if (obj["price4Qty"] != null) order_info.OLD_QTY = obj["price4Qty"].ToString();
-            if (obj["price1"] != null) order_info.ADT_PRICE = obj["price1"].ToString();
-            if (obj["price2"] != null) order_info.CHD_PRICE = obj["price2"].ToString();
-            if (obj["price3"] != null) order_info.INF_PRICE = obj["price3"].ToString();
-            if (obj["price4"] != null) order_info.OLD_PRICE = obj["price4"].ToString();
+            if (obj["price1"] != null) order_info.ADT_PRICE = obj["currPrice1"].ToString();
+            if (obj["price2"] != null) order_info.CHD_PRICE = obj["currPrice2"].ToString();
+            if (obj["price3"] != null) order_info.INF_PRICE = obj["currPrice3"].ToString();
+            if (obj["price4"] != null) order_info.OLD_PRICE = obj["currPrice4"].ToString();
             if (obj["pmgwCurrPriceTotal"] != null) order_info.TOTALPRICE = obj["pmgwCurrPriceTotal"].ToString();
             if (obj["currPricePay"] != null) order_info.TOTALPAY = obj["currPricePay"].ToString();
             if (obj["pmgwCurrFeeCancel"] != null) order_info.CANCELFEE = obj["pmgwCurrFeeCancel"].ToString();
